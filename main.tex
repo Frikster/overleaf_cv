@@ -19,7 +19,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.85, top=2cm]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -91,9 +91,10 @@
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
-
+\vspace*{-5mm}
 \small{Software engineer sensitive to data science considerations. Interested in deep learning, neural nets and GPU-accelerated parallel processing.}
 
+%-----------EXPERTISE--------
 \section{Expertise}
   \begin{itemize}
    \item{
@@ -170,47 +171,72 @@
       \item[\raisebox{0.25ex}{\tiny$\bullet$}] CPSC 445 - Algorithms in Bioinformatics - 92\%
       \end{itemize}\vspace{3pt}
     \end{itemize}
+\vspace{5pt}
+\subsection{Professional Development}
+      \begin{itemize}
+      \item{\cventry{October 2017 - December 2017}{Machine Learning}{Stanford University}{Coursera}{Andrew Ng}{}}  
+      \item{\cventry{December 2017 - March 2018 (Anticipated)}{Machine Learning A-Z: Hands-On Python \& R In Data Science}{Kirill Eremenko, Hadelin de Ponteves}{Udemy}{}{}}
+      \item{\cventry{December 2017 - March 2018 (Anticipated)}{Practical Deep Learning For Coders}{University of San Franscisco}{fast.ai}{Jeremy Howard}{}}
+      \end{itemize}
 
 %-----------PROJECTS-----------------
 \section{Projects}
   \begin{itemize} 
-  		\item{}
-  
-        \item{\cventry{October 2017 - December 2017 (Anticipated)}{Machine Learning, Andrew Ng}{Stanford University}{Coursera}{}{}}
-      \begin{itemize}
-      \item[\raisebox{0.25ex}{\tiny$\bullet$}] Reviewing material covered in CPSC 340.
-      \end{itemize}\vspace{3pt}  
-  
-      \item{Circuit Solver Android App (\href{https://github.com/Frikster/CircuitSolverApp}{https://github.com/Frikster/CircuitSolverApp})}
-      {As part of a team, developed an Android application (Java) that uses OpenCV to process images of drawn circuits, TensorFlow to recognize components found by OpenCV and Android NDK and NgSpice open source circuit simulator for solving the resultant circuit given particular inputs. Project includes requirements, design and test plan documentation.}
-    \item{Towers VR (\href{https://github.com/Frikster/BMEG554-Towers}{https://github.com/Frikster/BMEG554-Towers})}
-      {Developed a virtual reality (VR) environment using Unity3D and Leap Motion for a Biomedical Engineering self-directed study course (BMEG554) to explore the feasibility of using VR and Leap Motion in a clinical settings. Project outline: \href{http://icord.org/2016/05/30518/}{http://icord.org/2016/05/30518/} }
+      \item\textbf{Circuit Solver Android App (\href{https://github.com/Frikster/CircuitSolverApp}{https://github.com/Frikster/CircuitSolverApp})}:
+      {As part of a team, developed an Android application that uses OpenCV to process images of drawn circuits, TensorFlow to recognize components found by OpenCV and Android NDK and NgSpice open source circuit simulator for solving the resultant circuit given particular inputs. Project includes requirements, design and test plan documentation.}
+    \item\textbf{Towers VR (\href{https://github.com/Frikster/BMEG554-Towers}{https://github.com/Frikster/BMEG554-Towers})}:
+      {Developed a virtual reality (VR) environment using Unity3D and Leap Motion for a biomedical engineering self-directed study course (BMEG554) to explore the feasibility of using VR and Leap Motion in clinical settings. Project outline: \href{http://icord.org/2016/05/30518/}{http://icord.org/2016/05/30518/} }
   \end{itemize}
-
-
-
-  
   
 %-----------PUBLICATIONS-----------------
 \section{Publications and Presentations}
-  \begin{itemize}
-  \item{Thesis}
-      {Haupt, C. D. (2017). Mesoscale Brain Explorer, a flexible Python-based image analysis and visualization tool (T). University of British Columbia. Retrieved from \href{https://open.library.ubc.ca/cIRcle/collections/24/items/1.0354398}{https://open.library.ubc.ca/cIRcle/collections/24/items/1.0354398}}
-    \item{Peer-reviewed}
-      {\textbf{Haupt, D.}, Vanni, M. P., Bolanos, F., Mitelut, C., LeDue, J. M., \& Murphy, T. H. (2017). Mesoscale brain explorer, a flexible python-based image analysis and visualization tool. Neurophotonics, 4(3), 031210. \href{https://www.ncbi.nlm.nih.gov/pubmed/28560240}{https://www.ncbi.nlm.nih.gov/pubmed/28560240}}
-    \item{Poster}
-      {Mesoscale Brain Imaging: Seed-pixel Correlation Explorer. June 2016 Poster presented at the Neurofutures Conference: Circuit Structure and Dynamics, Allen Institute Seattle, Seattle,  WA. \href{https://www.slideshare.net/slideshow/embed\_code/key/cWfqoJOTrRzFBy}{https://www.slideshare.net/slideshow/embed\_code/key/cWfqoJOTrRzFBy}}
-    \item{Poster}
-      {The Feasibility of Leap Motion Virtual Reality as a Clinical Tool in Spinal Cord Injury Research. May 2016 Poster presented at Praxis conference, Rick Hansen Institute, Vancouver, BC. \href{https://goo.gl/hULZnc}{https://goo.gl/hULZnc}}
-          \item{Peer-reviewed}
-          {Murphy, T. H., Boyd, J. D., Bolaños, F., Vanni, M. P., Silasi, G., \textbf{Haupt, D.}, \& LeDue, J. M. (2016). High-throughput automated home-cage mesoscopic functional imaging of mouse cortex. Nature communications, 7. \href{https://www.nature.com/articles/ncomms11611}{https://www.nature.com/articles/ncomms11611}}
-          \item{Poster}
-      {Differences between $<$2 Week and 1 Month Assessments of Neurological and Functional Capacities for the Reliable Recruitment and Stratification of Incomplete Cervical SCI Trial Participants into Homogeneous Study Cohorts. May 2015 poster presented at the 4th Joint ISCOS/ASIA International Conference in Montreal, Canada. \href{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}}
-          \item{Award Poster}
-      {Searching for Trial Endpoints and Stratifying Subpopulations of AIS-D Participants for Clinical Studies. May 2015 poster presented at the 4th Joint ISCOS/ASIA International Conference in Montreal, Canada. \textit{Awarded the 4th ISCos ASIA 2015 Poster Award (top 6) for outstanding research (1 of 6 to receive the award)}. \href{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}}
-  \end{itemize}
+\subsection{Thesis}
+\begin{itemize}
+\item Haupt, C. D. (2017). Mesoscale Brain Explorer, a flexible Python-based image analysis and visualization tool (T). University of British Columbia. Retrieved from \href{https://open.library.ubc.ca/cIRcle/collections/24/items/1.0354398}{https://open.library.ubc.ca/cIRcle/collections/24/items/1.0354398}
+\end{itemize}
+\vspace{5pt}
+\subsection{Peer-reviewed}
+\begin{itemize}
+\item {\textbf{Haupt, D.}, Vanni, M. P., Bolanos, F., Mitelut, C., LeDue, J. M., \& Murphy, T. H. (2017). Mesoscale brain explorer, a flexible python-based image analysis and visualization tool. Neurophotonics, 4(3), 031210. 
+
+\href{https://www.ncbi.nlm.nih.gov/pubmed/28560240}{https://www.ncbi.nlm.nih.gov/pubmed/28560240}}
+\item {Murphy, T. H., Boyd, J. D., Bolaños, F., Vanni, M. P., Silasi, G., \textbf{Haupt, D.}, \& LeDue, J. M. (2016). High-throughput automated home-cage mesoscopic functional imaging of mouse cortex. Nature communications, 7. 
+
+\href{https://www.nature.com/articles/ncomms11611}{https://www.nature.com/articles/ncomms11611}}
+\end{itemize}
+\vspace{5pt}
+\subsection{Academic Posters}
+\begin{itemize}
+\item {Mesoscale Brain Imaging: Seed-pixel Correlation Explorer. June 2016 Poster presented at the Neurofutures Conference: Circuit Structure and Dynamics, Allen Institute Seattle, Seattle,  WA.
+
+\href{https://www.slideshare.net/slideshow/embed\_code/key/cWfqoJOTrRzFBy}{https://www.slideshare.net/slideshow/embed\_code/key/cWfqoJOTrRzFBy}}
+\item {The Feasibility of Leap Motion Virtual Reality as a Clinical Tool in Spinal Cord Injury Research. May 2016 Poster presented at Praxis conference, Rick Hansen Institute, Vancouver, BC. \href{https://goo.gl/hULZnc}{https://goo.gl/hULZnc}}
+\item {Differences between $<$2 Week and 1 Month Assessments of Neurological and Functional Capacities for the Reliable Recruitment and Stratification of Incomplete Cervical SCI Trial Participants into Homogeneous Study Cohorts. May 2015 poster presented at the 4th Joint ISCOS/ASIA International Conference in Montreal, Canada. \href{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}}
+\item {Searching for Trial Endpoints and Stratifying Subpopulations of AIS-D Participants for Clinical Studies. May 2015 poster presented at the 4th Joint ISCOS/ASIA International Conference in Montreal, Canada. \textit{Awarded the 4th ISCos ASIA 2015 Poster Award (top 6) for outstanding research (1 of 6 to receive the award)}. 
+
+\href{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}}
+\end{itemize}\vspace{5pt}
 
 References available upon request
+
+
+%   \begin{itemize}
+%   \item{Thesis}
+%       {Haupt, C. D. (2017). Mesoscale Brain Explorer, a flexible Python-based image analysis and visualization tool (T). University of British Columbia. Retrieved from \href{https://open.library.ubc.ca/cIRcle/collections/24/items/1.0354398}{https://open.library.ubc.ca/cIRcle/collections/24/items/1.0354398}}
+%     \item{Peer-reviewed}
+%       {\textbf{Haupt, D.}, Vanni, M. P., Bolanos, F., Mitelut, C., LeDue, J. M., \& Murphy, T. H. (2017). Mesoscale brain explorer, a flexible python-based image analysis and visualization tool. Neurophotonics, 4(3), 031210. \href{https://www.ncbi.nlm.nih.gov/pubmed/28560240}{https://www.ncbi.nlm.nih.gov/pubmed/28560240}}
+%     \item{Poster}
+%       {Mesoscale Brain Imaging: Seed-pixel Correlation Explorer. June 2016 Poster presented at the Neurofutures Conference: Circuit Structure and Dynamics, Allen Institute Seattle, Seattle,  WA. \href{https://www.slideshare.net/slideshow/embed\_code/key/cWfqoJOTrRzFBy}{https://www.slideshare.net/slideshow/embed\_code/key/cWfqoJOTrRzFBy}}
+%     \item{Poster}
+%       {The Feasibility of Leap Motion Virtual Reality as a Clinical Tool in Spinal Cord Injury Research. May 2016 Poster presented at Praxis conference, Rick Hansen Institute, Vancouver, BC. \href{https://goo.gl/hULZnc}{https://goo.gl/hULZnc}}
+%           \item{Peer-reviewed}
+%           {Murphy, T. H., Boyd, J. D., Bolaños, F., Vanni, M. P., Silasi, G., \textbf{Haupt, D.}, \& LeDue, J. M. (2016). High-throughput automated home-cage mesoscopic functional imaging of mouse cortex. Nature communications, 7. \href{https://www.nature.com/articles/ncomms11611}{https://www.nature.com/articles/ncomms11611}}
+%           \item{Poster}
+%       {Differences between $<$2 Week and 1 Month Assessments of Neurological and Functional Capacities for the Reliable Recruitment and Stratification of Incomplete Cervical SCI Trial Participants into Homogeneous Study Cohorts. May 2015 poster presented at the 4th Joint ISCOS/ASIA International Conference in Montreal, Canada. \href{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}}
+%           \item{Award Poster}
+%       {Searching for Trial Endpoints and Stratifying Subpopulations of AIS-D Participants for Clinical Studies. May 2015 poster presented at the 4th Joint ISCOS/ASIA International Conference in Montreal, Canada. \textit{Awarded the 4th ISCos ASIA 2015 Poster Award (top 6) for outstanding research (1 of 6 to receive the award)}. \href{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}{https://www.slideshare.net/DirkHaupt/draft-7-montreal-posters-1-49973542}}
+%   \end{itemize}
+
 
 
 % \section{Previous Employment}
@@ -344,7 +370,7 @@ References available upon request
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
 \nocite{*}
 \bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+% \bibliography{publications}                        % 'publications' is the name of a BibTeX file
 
 % Publications from a BibTeX file using the multibib package
 %\section{Publications}
