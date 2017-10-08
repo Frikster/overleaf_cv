@@ -72,7 +72,7 @@
 % \homepage{www.test.com} 
 % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{headshot.jpeg}                  % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \photo[64pt][0.4pt]{headshot.jpeg}                  % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -92,7 +92,7 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\small{Software Engineer sensitive to Data Science considerations. Interested in deep learning, neural nets and GPU-accelerated parallel processing.}
+\small{Software engineer sensitive to data science considerations. Interested in deep learning, neural nets and GPU-accelerated parallel processing.}
 
 \section{Expertise}
   \begin{itemize}
@@ -104,13 +104,7 @@
    }
  \end{itemize}
 
-\section{Education}
-  \begin{itemize}
-      \item{\cventry{2015 - September 2017}{M.Sc in Neuroscience}{University of British Columbia}{Vancouver, CA}{86.2\%}{}}
-    \item{\cventry{2010 - 2014}{B.Sc in Cognitive Systems, Computational Intelligence and Design}{University of British Columbia}{Vancouver, CA}{81.4\%}{}}
-    \end{itemize}
-
-  
+ 
 %     \subsection{University of British Columbia}{Vancouver, CA}
 %       {M.Sc in Neuroscience;  86.2\%}{2015 - September 2017}
 %     \resumeSubheading
@@ -118,60 +112,75 @@
 %       {B.Sc in Cognitive Systems, Computational Intelligence and Design; 81.4\%}{2010 - 2014}
 %   \end{itemize}
 
+%-----------EXPERIENCE--------
+
 \section{Experience}
 \begin{itemize}
-    \item{\cventry{2014 - Present}{Various Positions}{Blusson Spinal Cord Centre (ICORD)}{University of British Columbia}{}{}}
-     
- \begin{itemize}
-      \item{URP-ShinyApp (\href{https://github.com/Frikster/URP-ShinyApp}{https://github.com/Frikster/URP-ShinyApp})}
-          {Developed an online R-Shiny application called URP-ShinyApp to make data mining and predictive modeling easier for subject matter experts in spinal cord clinical research.}
+    \item{\cventry{2014 - Present}{Research Assistant}{International Collaboration on Repair Discoveries (ICORD)}{University of British Columbia}{Independent Consultant}{  
+\begin{itemize} 
+      \item[$\bullet$\scshape\bfseries]\textbf{Research Assistant (2014 - 2016)}:\vspace{2pt}
+      \begin{itemize}
+      \item[\raisebox{0.25ex}{\tiny$\bullet$}]{\textbf{URP-ShinyApp (\href{https://github.com/Frikster/URP-ShinyApp}{https://github.com/Frikster/URP-ShinyApp})}: Developed an online R-Shiny application to make data mining and predictive modeling easier for subject matter experts in spinal cord clinical research.}
+      \begin{itemize}
+      \item[-] Makes use of the R "party" package to implement a decision tree learning algorithm known as unbiased recursive partitioning for multivariate analysis. 
+          \item[-] Used by the Vancouver General Hospital's spinal cord clinic to assess a spinal cord injury patient's eligibility for various clinical trial research settings. 
+          \item[-] Extensively used by Prof. John Steeves, founding director of ICORD, to produce figures and reach conclusions. 
+      \end{itemize}     
+          \item[\raisebox{0.25ex}{\tiny$\bullet$}]{Generated quality reports through data mining and statistical analysis using R and URP-ShinyApp to be used at conferences. Statistical techniques included power analysis and rasch models.}
+          \item[\raisebox{0.25ex}{\tiny$\bullet$}]{Part of an international team that established a working protocol for including spinal cord injury patients in clinical trials. Key collaborators include Prof. Armin Curt, Chief Consultant and Director of the Spinal Cord Injury Centre at Der Balgrist Hospital in Zurich, Switzerland and John Steeves.}        
+      \end{itemize}
+     \item[$\bullet$\scshape\bfseries] \textbf{Independent Consultant (September 2017 - Present)}:
+          {Providing statistical analysis and implementing modifications to URP-ShinyApp as requested for an international team of domain experts attempting to find standardized criteria for the enrollment of patients to nerve transfer surgery. Key collaborators include Ida Fox, Project lead and Associate Professor of Surgery at Washington University School of Medicine in St. Louis.}
+      \end{itemize}}}  \vspace{3pt} 
+
+    \item{\cventry{2015 - 2017}{Research Assistant}{TH Murphy Laboratory}{University of British Columbia}{}{       
+      \begin{itemize}
+        \item[\raisebox{0.25ex}{\tiny$\bullet$}] \textbf{Mesoscale Brain Explorer (\href{https://github.com/Frikster/Mesoscale-Brain-Explorer}{https://github.com/Frikster/Mesoscale-Brain-Explorer})}:
+          {Designed and developed a user-friendly standalone cross-platform pyqt4/pyqtgraph (Python GUI frameworks) application for automating and standardizing analyses pipelines and visualization output, thereby making it easier for researchers without a background in programming to conduct their analysis.} 
           \begin{itemize}
-          \item{The application makes use of the R "party" package to implement a decision tree learning algorithm known as unbiased recursive partitioning for multivariate analysis. Application continues to be used by the Vancouver General Hospital's spinal cord clinic to assess a spinal cord injury patient's eligibility for various clinical trial research settings. In particular, Prof. John Steeves, founding director of the International Collaboration on Repair Discoveries (ICORD), continues to use it extensively to produce figures and reach conclusions.}
-          \item{Independent Consultant (2017 - Present)}
-          {Part of an international team attempting to find standardized criteria for the enrollment of patients to nerve transfer surgery. Provide statistical analysis and implement feature requests to URP-ShinyApp as requested. Key collaborators include Ida Fox, Project lead and Associate Professor of Surgery at Washington University School of Medicine in St. Louis.}
+          \item[-] Used by three researchers, one who has used it extensively for seven months and continues to use it daily.
+          \item[-] Main subject of master's thesis and peer-reviewed article published in \textit{Neurophotonics}.
           \end{itemize}
-        \item{Programmer (2015)}
-          {Part of an international team that established a working protocol for including spinal cord injury patients in clinical trials. Generated quality reports through decision tree learning and statistical analysis using R. Key collaborators include Prof. Armin Curt, Chief Consultant and Director of the Spinal Cord Injury Centre at Der Balgrist Hospital in Zurich, Switzerland and John Steeves.}
-        \item{Research Assistant (2014 - 2016)}
-          {Generated quality reports through data mining and statistical analysis using R and URP-ShinyApp to be used at conferences. Statistical techniques included power analysis and rasch models.}
-      \end{itemize}
+          \item[\raisebox{0.25ex}{\tiny$\bullet$}]{Developed Python scripts for automated neurophotonic data collection using Raspberry Pi coupled with the online data analytics tool Plotly and Bokeh for data visualization. Presented lab report providing evidence against a common assumption that the relationship between neurophotonic signal and light intensity is linear.}
+          \item[\raisebox{0.25ex}{\tiny$\bullet$}]{Implemented and helped optimize the upload functionality of a neurophysiology data analytics website (\href{SpikeSortingTest.com}{SpikeSortingTest.com}) using the Python web framework Django.}
+      \end{itemize}}} 
 
-    \item{\cventry{July 2013--August 2013}{Various Positions}{Blusson Spinal Cord Centre (ICORD)}{Test1}{test2}{\vspace{3pt}test3}}
-    
-    
-      {TH Murphy Laboratory}{University of British Columbia}
-      {Research Assistant}{2015 - 2017}
-      
-      
+    \item{\cventry{2014 - 2015}{Teaching Assistant}{University of British Columbia}{Vancouver, BC}{}{
       \begin{itemize}
-        \item{Mesoscale Brain Explorer (\href{https://github.com/Frikster/Mesoscale-Brain-Explorer}{https://github.com/Frikster/Mesoscale-Brain-Explorer})}
-          {Designed and developed a user-friendly standalone cross-platform pyqt4/pyqtgraph (Python GUI frameworks) application for automating and standardizing the analysis pipeline and visualization output required in TH Murphy's laboratory, thereby making it easier for researchers without a background in programming to conduct their analysis. Application continues to be used regularly by three researchers, one who has used it extensively for seven months and continues to use it daily.
-          }
-          \item{Data Science}
-          {Developed Python scripts for automated neurophotonic data collection using Raspberry Pi coupled with the online data analytics tool Plotly and Bokeh for data visualization and lab reports. Provided evidence against a common assumption that the relationship between neurophotonic signal and light intensity is linear.
-          }
-          \item{Web Engineering}{Implemented and helped optimize the upload functionality of a neurophysiology data analytics website called \href{SpikeSortingTest.com}{SpikeSortingTest} using the Python web framework Django.}
+        \item[\raisebox{0.25ex}{\tiny$\bullet$}] \textbf{Developmental Neuroscience}:
+          {Facilitated discussions with students, either one to one or in a group setting, on questions and problems posed (BIOL 458)}.
+        \item[\raisebox{0.25ex}{\tiny$\bullet$}] \textbf{Computation in Engineering Design}:
+          {Assisted in designing and testing course material, assisted in introducing students to the fundamentals of programming using C as a teaching language (APSC 160)}.
       \end{itemize}
-
-    \item{\cventry{July 2013--August 2013}{Various Positions}{Blusson Spinal Cord Centre (ICORD)}{Test1}{test2}{\vspace{3pt}test3}}
-    
-    {Teaching Assistant (various positions)}{University of British Columbia}
-      {Teaching Assistant}{2014 - 2015}
-      
-      
-      \begin{itemize}
-        \item{Developmental Neuroscience}
-          {Facilitated discussions with students, either one to one or in a group setting, on questions and problems posed by students (BIOL 458)}
-        \item{Computation in Engineering Design}
-          {Assisted in designing and testing course material, assisted in introducing students to the fundamentals of programming using C as a teaching language (APSC 160)}
-      \end{itemize}
-
-
+      }}
 \end{itemize}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \begin{itemize}
+      \item{\cventry{January 2015 - September 2017}{M.Sc in Neuroscience}{University of British Columbia}{Vancouver, CA}{86.2\%}{}}
+      \begin{itemize}
+      \item[\raisebox{0.25ex}{\tiny$\bullet$}] CPEN 321 - Software Engineering - 87\%
+      \end{itemize}\vspace{3pt}
+    \item{\cventry{September 2010 - September 2014}{B.Sc in Cognitive Systems, Computational Intelligence and Design}{University of British Columbia}{Vancouver, CA}{81.4\%}{}}
+      \begin{itemize}
+      \item[\raisebox{0.25ex}{\tiny$\bullet$}] CPSC 340 - Machine Learning and Data Mining - 80\%
+      \item[\raisebox{0.25ex}{\tiny$\bullet$}] CPSC 322 - Introduction to Artificial Intelligence - 93\%
+      \item[\raisebox{0.25ex}{\tiny$\bullet$}] MATH 302 - Introduction to Probability - 100\%
+      \item[\raisebox{0.25ex}{\tiny$\bullet$}] CPSC 445 - Algorithms in Bioinformatics - 92\%
+      \end{itemize}\vspace{3pt}
+    \end{itemize}
 
 %-----------PROJECTS-----------------
 \section{Projects}
   \begin{itemize} 
+  		\item{}
+  
+        \item{\cventry{October 2017 - December 2017 (Anticipated)}{Machine Learning, Andrew Ng}{Stanford University}{Coursera}{}{}}
+      \begin{itemize}
+      \item[\raisebox{0.25ex}{\tiny$\bullet$}] Reviewing material covered in CPSC 340.
+      \end{itemize}\vspace{3pt}  
+  
       \item{Circuit Solver Android App (\href{https://github.com/Frikster/CircuitSolverApp}{https://github.com/Frikster/CircuitSolverApp})}
       {As part of a team, developed an Android application (Java) that uses OpenCV to process images of drawn circuits, TensorFlow to recognize components found by OpenCV and Android NDK and NgSpice open source circuit simulator for solving the resultant circuit given particular inputs. Project includes requirements, design and test plan documentation.}
     \item{Towers VR (\href{https://github.com/Frikster/BMEG554-Towers}{https://github.com/Frikster/BMEG554-Towers})}
